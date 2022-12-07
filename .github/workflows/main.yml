@@ -1,0 +1,6 @@
+name: TEST
+on:
+  push:
+  schedule:
+    cron:
+      - '* 0 * * 1-5 /Notification/blob/98e8d6775e0cd299cb17345d1831d44bf2d017e9/share_info.py'
