@@ -27,6 +27,7 @@ jobs:
           pip install numpy
           pip install pandas
           pip install matplotlib
+          pip install matplotlib-inline
           pip install yahoo-finance-api2
           pip install requests
       - name: Run script
