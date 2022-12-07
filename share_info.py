@@ -79,7 +79,7 @@ message = message + EOL + EOL + 'SBI証券ログインページ' + EOL + 'https:
 #株価表の作成
 # 表のサイズ指定
 fig = plt.figure(figsize=(6,4),dpi=150)
-plt.rcParams['font.family'] = 'Meiryo'
+plt.rcParams['font.family'] = 'IPAexGothic'
 ax1 = fig.add_subplot(111)
 ax1.axis("off")
 columns =['【銘柄コード】企業名','株価','前日']
