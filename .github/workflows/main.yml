@@ -23,6 +23,7 @@ jobs:
           # pip更新
           python -m pip install --upgrade pip
           # 必要なパッケージインストール・・・②
+          pip install colorama
           pip install numpy
           pip install pandas
           pip install matplotlib
